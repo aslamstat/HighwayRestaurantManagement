@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <Button
+        android:text="SignIn"
+        android:textColor="@android:color/holo_green_light"
+        android:id="@+id/buttonSignIN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/solid_colour_shape"
+        android:onClick="signIn" />
+
+    <Button
+        android:text="SignUp"
+        android:textColor="@android:color/holo_green_light"
+        android:id="@+id/buttonSignUP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_shape" />
+
+</LinearLayout>
